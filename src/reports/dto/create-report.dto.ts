@@ -4,6 +4,8 @@ export class CreateReportDto {
 
 	description: string;
 
+	img_url: string;
+
 	latitude: string;
 
 	longitude: string;

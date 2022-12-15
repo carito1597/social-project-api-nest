@@ -16,6 +16,9 @@ export class Report {
 	@Column({ type: "varchar", length: 350 })
 	description: string;
 
+	@Column({ type: "varchar", length: 380})
+	img_url: string;
+
 	@Column({ type: "varchar", length: 20 })
 	latitude: string;
 
